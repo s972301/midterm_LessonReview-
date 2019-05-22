@@ -75,7 +75,7 @@ export default ({ data,id }) => {
                     <div class="col mr-2">
                     
                     <div class="text-xs font-weight-bold text-info text-uppercase mb-1">{itemCh[id]} {id}</div>
-                    <ProgressBar now={meanScore/5*100} label={meanScore} width={'60%'} />           
+                    <ProgressBar now={meanScore/5*100} label={meanScore.toFixed(1)} width={'60%'} />           
                       
 
                     </div>
