@@ -1,12 +1,13 @@
 # 題目名稱 LessonReview+
 
-#基於通識課的小組提案，製作了一個課程評價網
+基於通識課的小組提案，製作了一個課程評價網
 
 ## 使用/操作方式
 1. git clone下載
 2. npm install 
 3. npm start 
 
+另外以 npm run devstart則會以nodemon啟動後端
 ## 其他說明
 使用與參考之框架/模組/原始碼
 在前端的製作上，主要是使用及參考了React-bootstrap包及SB Admin2模版的樣式
